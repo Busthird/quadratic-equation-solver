@@ -1,3 +1,4 @@
+
 using System;
 using Xunit;
 
@@ -43,38 +44,6 @@ namespace QuadraticEquationSolver
             {
                 Assert.Equal(root1, result.root1);
                 Assert.Equal(root2, result.root2);
-            }
-        }
-    }
-
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Enter coefficients for the quadratic equation (ax² + bx + c = 0):");
-            Console.Write("a: ");
-            double a = double.Parse(Console.ReadLine());
-            Console.Write("b: ");
-            double b = double.Parse(Console.ReadLine());
-            Console.Write("c: ");
-            double c = double.Parse(Console.ReadLine());
-
-            var result = QuadraticEquation.Solve(a, b, c);
-
-            if (result.hasRoots)
-            {
-                if (result.root1 == result.root2)
-                {
-                    Console.WriteLine($"The equation has one real root: {result.root1}");
-                }
-                else
-                {
-                    Console.WriteLine($"The equation has two real roots: {result.root1} and {result.root2}");
-                }
-            }
-            else
-            {
-                Console.WriteLine("The equation has no real roots.");
             }
         }
     }

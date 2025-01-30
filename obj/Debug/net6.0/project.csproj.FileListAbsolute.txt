@@ -1,0 +1,5 @@
+C:\Users\aemre\OneDrive\Masaüstü\Project\obj\Debug\net6.0\project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aemre\OneDrive\Masaüstü\Project\obj\Debug\net6.0\project.AssemblyInfoInputs.cache
+C:\Users\aemre\OneDrive\Masaüstü\Project\obj\Debug\net6.0\project.AssemblyInfo.cs
+C:\Users\aemre\OneDrive\Masaüstü\Project\obj\Debug\net6.0\project.csproj.CoreCompileInputs.cache
+C:\Users\aemre\OneDrive\Masaüstü\Project\obj\Debug\net6.0\project.sourcelink.json
